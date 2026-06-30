@@ -150,7 +150,7 @@ anomalies (id, user_id, transaction_id, z_score, reason, detected_at)
 
 ## How Anomaly Detection Works
 
-Uses **Z-score statistical analysis** — no ML required:
+Uses **Z-score statistical analysis** —:
 
 1. When a transaction is added, the engine fetches the last 60 transactions in the same category
 2. Calculates the mean and standard deviation of historical amounts
